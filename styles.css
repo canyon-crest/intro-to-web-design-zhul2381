@@ -1,12 +1,13 @@
 body{
-    background-color:lightblue;
+    background-color:#c8d9e6;
     color:cornflowerblue;
     font-family:Arial, Helvetica, sans-serif;
     padding: 30px;
     margin: 0;
 }
+
 #container{
-    background:aliceblue;
+    background:white;
     padding: 30px;
     width: 1100px;
     margin: 0 auto;
@@ -14,7 +15,7 @@ body{
     border-right: 5px solid white;
 }
 #sidebar{
-    background: lightblue;
+    background: #f5efeb;
     padding: 20px;
     border: 3px solid white;
     width: 20%;
@@ -22,8 +23,9 @@ body{
     margin-left: 38px;
     border-radius: 30px;
 }
+
 h1{
-    font-family:'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
     background:rgb(240, 246, 255);
     padding: 20px;
     text-align: center;
@@ -32,30 +34,48 @@ h1{
     font-size: 2em;
     border: 6px solid white;
     border-radius: 30px;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
 }
 h2{
     text-align: center;
 }
 h3{
     width: 100px;
+    color: #8fc9ff;
     border-left: 30px double white;
     padding: 10px;
     margin-left: 30px;
     border-radius: 15px;
+    text-shadow: -3px 0 #657f9c, 0 3px #657f9c, 3px 0 #657f9c, 0 -3px #657f9c;
 }
 img {
     width: 300px;
     float: left;
     margin-right: 10px;
     border-radius: 30px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
 }
 .text{
     line-height: 2.25em;
+     background: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#pic1{
+    width: 250px;
+    height: 250px; 
 }
 #pic2{
     float: right;
     margin-right: 0;
     margin-left: 10px;
+}
+#yumm{
+    width:250px;
+    height: 250px;
 }
 .highlight{
     background: white;
@@ -134,4 +154,19 @@ ul{
         margin: 0 auto;
         padding: 10px;
     }
+}
+.section{
+     overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    background-image: url(images/paper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mask1{
+    -webkit-mask-image:url(images/mask.png);
+    mask-image: url(images/mask.png);
+    mask-repeat:no-repeat;
 }
