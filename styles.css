@@ -164,9 +164,3 @@ ul{
     background-position: center;
     background-size: cover;
 }
-
-.mask1{
-    -webkit-mask-image:url(images/mask.png);
-    mask-image: url(images/mask.png);
-    mask-repeat:no-repeat;
-}
