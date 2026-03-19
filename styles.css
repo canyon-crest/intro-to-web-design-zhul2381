@@ -49,7 +49,7 @@ img {
     margin-right: 10px;
     border-radius: 30px;
 }
-p{
+.text{
     line-height: 2.25em;
 }
 #pic2{
@@ -88,8 +88,12 @@ ul{
     font-size: 1em;
 }
 #sidebar h3{
-    border-color:aliceblue;
+    border-color:lightblue;
     font-size: 1.2em;
+}
+#sidebar h4{
+    font-size: 1em;
+    color: cornflowerblue;
 }
 @media (max-width: 1200px){
     #container{
